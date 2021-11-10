@@ -1,0 +1,8 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "AlternativeCommerce"
+authors = [{name = "AlternativeCommerce", email = "hello@alternativecommerce.org"}]
+dynamic = ["version", "description"]
